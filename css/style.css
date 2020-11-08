@@ -1,0 +1,33 @@
+
+.container {
+    background-color: royalblue;
+}
+ .nav{
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+    }
+
+.logo{
+    width: 135px;
+    height: 60px;
+}
+
+.b{
+    background-color: salmon;
+}
+
+.c{
+    background-color: pink;
+}
+
+.d{
+    background-color: orange;
+   
+}
+h1{
+    color: red;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+}
