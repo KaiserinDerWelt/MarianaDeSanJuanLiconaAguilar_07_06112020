@@ -3,9 +3,9 @@
     background-color: royalblue;
 }
  .nav{
-  display: flex ;
-  align-items: center ;
-  justify-content: center ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
     }
 
 .logo{
@@ -25,6 +25,11 @@
     background-color: orange;
    
 }
+
+.cardsContainer{
+    background-color: yellow;
+}
+
 h1{
     color: red;
     display: flex ;
