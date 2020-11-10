@@ -26,8 +26,11 @@
    
 }
 
-.cardsContainer{
-    background-color: yellow;
+.colCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
 }
 
 h1{
