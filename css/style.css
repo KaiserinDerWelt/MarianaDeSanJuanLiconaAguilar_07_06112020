@@ -26,11 +26,20 @@
    
 }
 
+.rowCard{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .colCard{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 35px;
+}
+
+.cardRecipe{
+    width: 350px;
 }
 
 .card-body{
