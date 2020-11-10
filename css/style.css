@@ -28,6 +28,13 @@ border-bottom-left-radius: 10px;
    
 }
 
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #E7E7E7;
+  }
+  
 .btn-outline-secondary{
     border: none;
 }
