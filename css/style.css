@@ -17,6 +17,18 @@
     background-color: #FFFFFF;
 }
 
+.form-control{
+    height: 50px;
+}
+.inputSearch{
+background-color: #E7E7E7;
+}
+
+.searchButton{
+    background-color: #E7E7E7;
+    height: 50px;
+}
+
 .c{
     background-color: #FFFFFF;
 }
