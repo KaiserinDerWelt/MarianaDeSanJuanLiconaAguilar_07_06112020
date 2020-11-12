@@ -3,9 +3,9 @@ function functionSearch() {
     inputSearch = document.getElementById("searchFilter"); //Input search //OK
     filterSearch = inputSearch.value.toUpperCase();
     cardContainer = document.getElementById("items");//Container d//OK
-    cardsSearch = cardContainer.getElementsByClassName("card");//Targeting Card //OK
+    cardsSearch = cardContainer.getElementsByClassName("card");//Targeting Card //
     for (i = 0; i < cardsSearch.length; i++) {
-        mySearch = cardsSearch[i].querySelector(".row");
+        mySearch = cardsSearch[i].querySelector(".card-body");
         if (mySearch.innerText.toUpperCase().indexOf(inputSearch) > -1) {
             cardsSearch[i].style.display = "";
         } else {
@@ -13,3 +13,4 @@ function functionSearch() {
         }
     }
 }
+

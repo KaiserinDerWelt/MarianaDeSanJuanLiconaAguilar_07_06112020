@@ -14,12 +14,12 @@
    <div class="container nav">
     <img src="img/logo.png"  alt="Le-Petits-Plans-Restaurant" class="logo">
    </div>
-   <!--Container for search bar-->
+   <!--Container for search bar OK-->
     <div class="container b">
       <div class="input-group mb-3 searchButton">
-        <input type="text" class="form-control inputSearch" id="searchFilter" placeholder="Search an ingredient, device, utensil or a recipe" aria-label="Recipient's username" aria-describedby="button-addon2"> 
+        <input type="text" class="form-control inputSearch" onkeyup="functionSearch()" id="searchFilter" placeholder="Search an ingredient, device, utensil or a recipe" aria-label="Recipient's username" aria-describedby="button-addon2" > 
         <div class="input-group-append">
-          <button class="btn btn-outline-secondary" type="button" id="magButton" onclick="functionSearch()"> <i class="fas fa-search text-grey" aria-hidden="true"></i></button>
+          <button class="btn btn-outline-secondary" type="button" id="magButton"> <i class="fas fa-search text-grey" aria-hidden="true"></i></button>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@
                       <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
                       <div class="card-body cardStyle">
                           <div class="row">
-                              <div class="col-8"><h5 class="card-title">Cat</h5></div>
+                              <div class="col-8"><p class="card-text-OO">gripii.</p></div>
                               <div class="col-4">col-4</div>
                             </div>
                             <div class="row">
@@ -48,7 +48,7 @@
                       <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
                       <div class="card-body cardStyle">
                           <div class="row">
-                              <div class="col-8"><h5 class="card-title">Dog</h5></div>
+                              <div class="col-8"><h5 class="card-tit">Card One</h5></div>
                               <div class="col-4">col-4</div>
                             </div>
                             <div class="row">
@@ -768,7 +768,7 @@
                       <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
                       <div class="card-body">
                           <div class="row">
-                              <div class="col-8">col-8</div>
+                              <div class="col-8"><h5 class="card-title">Kitten</h5></div>
                               <div class="col-4">col-4</div>
                             </div>
                             <div class="row">
@@ -846,26 +846,11 @@
     <!--jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="js/fetch.js"></script>
     <script src="js/searchEngine.js"></script>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCvx82UR3qyVS62-pe3t1v41-KPwPZrgCM",
-    authDomain: "ocp07-bd996.firebaseapp.com",
-    databaseURL: "https://ocp07-bd996.firebaseio.com",
-    projectId: "ocp07-bd996",
-    storageBucket: "ocp07-bd996.appspot.com",
-    messagingSenderId: "364528577352",
-    appId: "1:364528577352:web:aadf856ac2236d93d9617d"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
   </body>
 </html>
