@@ -6,7 +6,7 @@ function functionSearch() {
     cardsSearch = cardContainer.getElementsByClassName("card");//Targeting Card //
     for (i = 0; i < cardsSearch.length; i++) {
         mySearch = cardsSearch[i].querySelector(".card-body");
-        if (mySearch.innerText.toUpperCase().indexOf(inputSearch) > -1) {
+        if (mySearch.innerText.toUpperCase().indexOf(filterSearch) > -1) {
             cardsSearch[i].style.display = "";
         } else {
             cardsSearch[i].style.display = "none";
