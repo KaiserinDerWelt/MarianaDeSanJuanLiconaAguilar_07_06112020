@@ -5,7 +5,7 @@ function functionSearch() {
     cardContainer = document.getElementById("items");//Container d//OK
     cardsSearch = cardContainer.getElementsByClassName("card");//Targeting Card //
     for (i = 0; i < cardsSearch.length; i++) {
-        mySearch = cardsSearch[i].querySelector(".card-body");
+        mySearch = cardsSearch[i].querySelector(".card-body"); //Modify lenght
         if (mySearch.innerText.toUpperCase().indexOf(filterSearch) > -1) {
             cardsSearch[i].style.display = "";
         } else {
