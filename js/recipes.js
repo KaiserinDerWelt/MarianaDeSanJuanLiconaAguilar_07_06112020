@@ -1,4 +1,4 @@
- [
+var recipes = [
     {
         "id": 1,
         "name" : "Coconut Lemonade",
@@ -1722,3 +1722,24 @@
         "ustensils":["rouleau à patisserie","fouet"]
     }
 ]
+
+    var recipe = document.getElementsByClassName('recipeName');
+    var preparationTime = document.getElementsByClassName('time');
+    var instructions = document.getElementsByClassName('instructions');
+    var ingredients = document.getElementsByClassName('test');
+    var recipesjson = recipes;
+    
+
+  for(var i = 0; i < recipesjson.length; i++) {    
+    recipe[i].innerHTML = recipesjson[i].name;
+    preparationTime[i].innerHTML = recipesjson[i].time + "  " + '<i class="far fa-clock"></i>';
+    instructions[i].innerHTML = recipesjson[i].description;
+    
+    /*description[i].innerHTML = photographers[i].tagline;
+    taggies[i].innerHTML = "#" + photographers[i].tags[0];
+    taggiesII[i].innerHTML = "#" + photographers[i].tags[1];
+    taggiesIII[i].innerHTML = "#" + photographers[i].tags[2];
+    taggiesIV[i].innerHTML = "#" + photographers[i].tags[3];
+    rate[i].innerHTML = photographers[i].price + "$";
+    totalLikes[i].innerHTML = "297 081" + "" +'<i class="fas fa-heart" aria-hidden="true"></i>';*/
+  }
