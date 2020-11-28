@@ -1729,11 +1729,14 @@ var recipes = [
     var ingredients = document.getElementsByClassName('test');
     var recipesjson = recipes;
     
+    
 
   for(var i = 0; i < recipesjson.length; i++) {    
     recipe[i].innerHTML = recipesjson[i].name;
     preparationTime[i].innerHTML = recipesjson[i].time + "  " + '<i class="far fa-clock"></i>';
     instructions[i].innerHTML = recipesjson[i].description;
+   
+   
     
     /*description[i].innerHTML = photographers[i].tagline;
     taggies[i].innerHTML = "#" + photographers[i].tags[0];
