@@ -11,20 +11,23 @@ var recipes = [
             },
             {
                 "ingredient" : "Lemon juice",
-                "quantity" : 2
+                "quantity" : 2,
+                "unit" : " "
             },
             {
                 "ingredient" : "Coconut cream",
                 "quantity" : 2,
-                "unit" : "tablespoons"
+                "unit" : "tablespoons" //JSON HAD ERRORS, ENGLISH & FRENCH MIXED
             },
             {
                 "ingredient" : "Sugar",
-                "quantite" : 30,
+                "quantity" : 30,
                 "unit" : "grams"
             },
             {
-                "ingredient": "Ice cubes"
+                "ingredient": "Ice cubes",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 10,
@@ -44,19 +47,23 @@ var recipes = [
             },
             {
                 "ingredient" : "Cucumber",
-                "quantity" : 1
+                "quantity" : 1,
+                "unit" : " "
             },
             {
                 "ingredient" : "Tomato",
-                "quantity" : 2
+                "quantity" : 2,
+                "unit" : " "
             },
             {
                 "ingredient" : "Carrot",
-                "quantite" : 1
+                "quantity" : 1,
+                "unit" : " "
             },
             {
                 "ingredient" : "Lime",
-                "quantity" : 5
+                "quantity" : 5,
+                "unit" : " "
             },
             {
                 "ingredient" : "Coconut Milk",
@@ -75,7 +82,8 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Chicken",
-                "quantity" : 1          
+                "quantity" : 1,
+                "unit": " "          
             },
             {
                 "ingredient": "Coconut milk",
@@ -89,14 +97,18 @@ var recipes = [
             },
             {
                 "ingredient": "Onion",
-                "quantity" : 1
+                "quantity" : 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Red pepper",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
-                "ingredient": "Olive oil"
+                "ingredient": "Olive oil",
+                "quantity" : " ",
+                "unit" : " "
             }
         ],
         "time": 80,
@@ -119,11 +131,13 @@ var recipes = [
                 "unit": "grams"
             },{
                 "ingredient": "Tomato",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Hard-boiled egg",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Corn",
@@ -148,7 +162,8 @@ var recipes = [
         "ingredients":[
            {
                "ingredient": "Pastry dough",
-               "quantity": 1 
+               "quantity": 1,
+               "unit" : " "
            },
            {
                "ingredient": "Crumbled tuna",
@@ -157,7 +172,8 @@ var recipes = [
            },
            {
                 "ingredient": "Tomato",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
            },
            {
                "ingredient": "Crème fraîche",
@@ -172,8 +188,8 @@ var recipes = [
            {
                 "ingredient": "Dijon mustard",
                 "quantity": 1,
-                "unite": "tablespoons"
-           }
+                "unit": "tablespoons" //More errors cause the file is in french and english
+           }                           // I had to curate the json file
         ],
         "time": 45,
         "description": "Spread the dough to the size of the pan, spread the mustard on the dough, add the tuna. Cut the tomatoes into slices and place them on the fish, add a little crème fraîche to the whole pie and top with grated Gruyere. Bake for 30 minutes",
@@ -187,15 +203,18 @@ var recipes = [
         "ingredients":[
             {
                 "ingredient": "Short crust pastry",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Apple",
-                "quantity": 3
+                "quantity": 3,
+                "unit" : " "
             },
             {
                 "ingredient": "Egg",
-                "quantity": "2"
+                "quantity": "2",
+                "unit" : " "
             },
             {
                 "ingredient":"Crème fraîche",
@@ -225,7 +244,8 @@ var recipes = [
         "ingredients":[
             {
                 "ingredient": "Shortbread pastry dough",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             }, 
             {
                 "ingredient": "Milk chocolate",
@@ -244,7 +264,13 @@ var recipes = [
             },
             {
                 "ingredient": "Strawberry",
-                "quantity": 6
+                "quantity": 6,
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 50,
@@ -273,7 +299,8 @@ var recipes = [
            },
            {
                 "ingredient": "Egg",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
            },
            {
                "ingredient": "Powdered sugar",
@@ -299,10 +326,13 @@ var recipes = [
         "ingredients":[
             {
                 "ingredient": "Cucumber",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
-                "ingredient": "Olives"
+                "ingredient": "Olives",
+                "quantity" : " ",
+                "unit" : " "
             },
             {
                 "ingredient": "Goat's cheese",
@@ -310,13 +340,19 @@ var recipes = [
                 "unit": "grams"
             },
             {
-                "ingredient": "Balsamic vinegar"
+                "ingredient": "Balsamic vinegar",
+                "quantity" : " ",
+                "unit" : " "
             },
             {
-                "ingredient": "Olive oil"
+                "ingredient": "Olive oil",
+                "quantity" : " ",
+                "unit" : " "
             }, 
             {
-                "ingredient": "Basil" 
+                "ingredient": "Basil",
+                "quantity" : " ",
+                "unit" : " "
  }
  ],
  "time": 15,
@@ -331,7 +367,8 @@ var recipes = [
         "ingredients":[
             {
                 "ingredient": "Reblochon",
-                "quantity": "1"
+                "quantity": "1",
+                "unit" : " "
             },
             {
                 "ingredient": "Potatoes",
@@ -380,11 +417,13 @@ var recipes = [
             }, 
             {
                 "ingredient": "Apples",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Green salad",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Dressing",
@@ -408,7 +447,8 @@ var recipes = [
             },
             {
                 "ingredient": "Apples",
-                "quantity": 8
+                "quantity": 8,
+                "unit" : " "
             },
             {
                 "ingredient": "Vanilla sugar",
@@ -443,7 +483,8 @@ var recipes = [
             },
             {
                 "ingredient": "Shallot",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
 
             },
             {
@@ -469,7 +510,8 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Breton or Toulouse sausage",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Buckwheat flour",
@@ -478,7 +520,8 @@ var recipes = [
             },
             {
                 "ingredient": "Egg",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
 
             },
             {
@@ -488,7 +531,8 @@ var recipes = [
             },
             {
                 "ingredient": "Onion",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Butter",
@@ -509,7 +553,8 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Egg",
-                "quantity": 3
+                "quantity": 3,
+                "unit" : " "
             },
             {
                 "ingredient": "Flour",
@@ -533,7 +578,8 @@ var recipes = [
             },
             {
                 "ingredient": "Banana",
-                "quantity": 4
+                "quantity": 4,
+                "unit" : " "
             }
         ],
         "time": 60,
@@ -589,7 +635,8 @@ var recipes = [
             },
             {
                 "ingredient": "Watermelon",
-                "quantity": 0.5
+                "quantity": 0.5,
+                "unit" : " "
             },
             {
                 "ingredient": "Lemon juice",
@@ -598,10 +645,13 @@ var recipes = [
             },
             {
                 "ingredient": "Ice cubes",
-                "quantity": 8
+                "quantity": 8,
+                "unit" : " "
             },
             {
-                "ingredient": "Mint"
+                "ingredient": "Mint",
+                "quantity" : " ",
+                "unit" : " "
             }
         ],
         "time": 15,
@@ -616,7 +666,8 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Pineapple",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Vanilla ice cream",
@@ -641,11 +692,14 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Kiwi Fruit",
-                "quantity": 4
+                "quantity": 4,
+                "unit" : " "
+        
             },
             {
                 "ingredient": "Lemon",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Milk",
@@ -659,7 +713,8 @@ var recipes = [
             },
             {
                 "ingredient": "Banana",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             }
         ],
         "time": 0,
@@ -715,7 +770,8 @@ var recipes = [
             },
             {
                 "ingredient": "Onion",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Tomato coulis",
@@ -765,7 +821,8 @@ var recipes = [
             },
             {
                 "ingredient": "Egg",
-                "quantity": 4
+                "quantity": 4,
+                "unit" : " "
             },
             {
                 "ingredient": "Sugar",
@@ -800,7 +857,8 @@ var recipes = [
             },
             {
                 "ingredient": "Egg",
-                "quantity": 3
+                "quantity": 3,
+                "unit" : " "
             },
             {
                 "ingredient": "Crème Fraîche",
@@ -835,11 +893,13 @@ var recipes = [
             },
             {
                 "ingredient": "Tomato",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Cucumber",
-                "quantity": 0.5
+                "quantity": 0.5,
+                "unit" : " "
             },
             {
                 "ingredient": "Macaroni",
@@ -884,7 +944,8 @@ var recipes = [
             },
             {
                 "ingredient": "Egg",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             }
         ],
         "time": 30,
@@ -899,18 +960,23 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Tomato",
-                "quantity": 6
+                "quantity": 6,
+                "unit" : " "
             },
             {
                 "ingredient": "Potatoes",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
-                "ingredient": "Olive oil"
+                "ingredient": "Olive oil",
+                "quantity" : " ",
+                "unit" : " "
             },
             {
                 "ingredient": "Onion",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Garlic",
@@ -930,16 +996,19 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Sorrel",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Egg",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Crème fraîche",
                 "quantity": 4,
-                "unit": "tablespoon"
+                "unit": "tablespoon",
+                "unit" : " "
             },
             {
                 "ingredient": "Noodles",
@@ -964,7 +1033,8 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Leek",
-                "quantity": 3
+                "quantity": 3,
+                "unit" : " "
             },
             {
                 "ingredient": "Potatoes",
@@ -1009,13 +1079,18 @@ var recipes = [
             },
             {
                 "ingredient": "Lemon",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
-                "ingredient": "Olive oil"
+                "ingredient": "Olive oil",
+                "quantity" : " ",
+                "unit" : " "
             },
             {
-                "ingredient": "Paprika"
+                "ingredient": "Paprika",
+                "quantity" : " ",
+                "unit" : " "
             }
         ],
         "time": 30,
@@ -1035,7 +1110,8 @@ var recipes = [
             },
             {
                 "ingredient": "Onion",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Garlic",
@@ -1055,11 +1131,13 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Carrot",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Potatoes",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Green beans",
@@ -1140,7 +1218,8 @@ var recipes = [
             },
             {
                 "ingredient": "Lettuce leaves",
-                "quantity": 4
+                "quantity": 4,
+                "unit" : " "
             },
             {
                 "ingredient": "Cottage cheese",
@@ -1174,11 +1253,14 @@ var recipes = [
                 "unit": "cl"
             },
             {
-                "ingredient": "Olive oil"
+                "ingredient": "Olive oil",
+                "quantity" : " ",
+                "unit" : " "
             },
             {
                 "ingredient": "Orange",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             }
         ],
         "time": 25,
@@ -1193,11 +1275,13 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Carrot",
-                "quantity": 6
+                "quantity": 6,
+                "unit" : " "
             },
             {
                 "ingredient": "Potatoes",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Butter",
@@ -1232,10 +1316,12 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Zucchini",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Goat's cheese",
+                "quantity" : " ",
                 "quantity": 4
             },
             {
@@ -1271,7 +1357,8 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Zucchini",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Minced meat",
@@ -1285,7 +1372,8 @@ var recipes = [
             },
             {
                 "ingredient": "Onion",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Tomato coulis",
@@ -1321,7 +1409,8 @@ var recipes = [
             },
             {
                 "ingredient": "Egg",
-                "quantity": 3
+                "quantity": 3,
+                "unit" : " "
             },
             {
                 "ingredient": "Brown sugar",
@@ -1341,7 +1430,8 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Apple",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Flour",
@@ -1376,7 +1466,8 @@ var recipes = [
             },
             {
                 "ingredient": "Lime",
-                "quantity": 3
+                "quantity": 3,
+                "unit" : " "
             },
             {
                 "ingredient": "Powdered sugar",
@@ -1401,7 +1492,8 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Egg",
-                "quantity": 3
+                "quantity": 3,
+                "unit" : " "
             },
             {
                 "ingredient": "Dark chocolate",
@@ -1431,7 +1523,8 @@ var recipes = [
             },
             {
                 "ingredient": "Egg",
-                "quantity": 3
+                "quantity": 3,
+                "unit" : " "
             },
             {
                 "ingredient": "Pears in juice",
@@ -1440,7 +1533,8 @@ var recipes = [
             },
             {
                 "ingredient": "Ladyfingers",
-                "quantity": 15
+                "quantity": 15,
+                "unit" : " "
             }
         ],
         "time": 60,
@@ -1470,10 +1564,13 @@ var recipes = [
             },
             {
                 "ingredient": "Egg",
-                "quantity": 3
+                "quantity": 3,
+                "unit" : " "
             },
             {
-                "ingredient": "Lemon"
+                "ingredient": "Lemon",
+                "quantity" : " ",
+                "unit" : " "
             }
         ],
         "time": 50,
@@ -1529,7 +1626,8 @@ var recipes = [
             },
             {
                 "ingredient": "Egg",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Flour",
@@ -1569,7 +1667,8 @@ var recipes = [
             },
             {
                 "ingredient": "Egg",
-                "quantity": 4
+                "quantity": 4,
+                "unit" : " "
             },
             {
                 "ingredient": "Milk",
@@ -1625,7 +1724,8 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Pizza dough",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Peeled tomatoes",
@@ -1660,15 +1760,18 @@ var recipes = [
         "ingredients": [
             {
                 "ingredient": "Bananas",
-                "quantity": 2
+                "quantity": 2,
+                "unit" : " "
             },
             {
                 "ingredient": "Kiwis",
-                "quantity": 3
+                "quantity": 3,
+                "unit" : " "
             },
             {
                 "ingredient": "Mango",
-                "quantity": 1
+                "quantity": 1,
+                "unit" : " "
             },
             {
                 "ingredient": "Pineapple",
@@ -1698,7 +1801,8 @@ var recipes = [
             },
             {
                 "ingredient": "Egg",
-                "quantity": 6
+                "quantity": 6,
+                "unit" : " "
             },
             {
                 "ingredient": "Ground almonds",
@@ -1726,7 +1830,7 @@ var recipes = [
     var recipe = document.getElementsByClassName('recipeName');
     var preparationTime = document.getElementsByClassName('time');
     var instructions = document.getElementsByClassName('instructions');
-    var ingredients = document.getElementsByClassName('test');
+    var ingredients = document.getElementsByClassName('ingredientFlow');
     var recipesjson = recipes;
     
     
@@ -1735,14 +1839,12 @@ var recipes = [
     recipe[i].innerHTML = recipesjson[i].name;
     preparationTime[i].innerHTML = recipesjson[i].time + "  " + '<i class="far fa-clock"></i>';
     instructions[i].innerHTML = recipesjson[i].description;
-   
-   
+    ingredients[i].innerHTML= recipesjson[i].ingredients[0].ingredient + ": " + recipesjson[i].ingredients[0].quantity + recipesjson[i].ingredients[0].unit +
+    '<br>' + recipesjson[i].ingredients[1].ingredient + ": " + recipesjson[i].ingredients[1].quantity + " " + recipesjson[i].ingredients[1].unit +
+    '<br>' + recipesjson[i].ingredients[2].ingredient + ": " + recipesjson[i].ingredients[2].quantity + " " + recipesjson[i].ingredients[2].unit +
+    '<br>' + recipesjson[i].ingredients[3].ingredient + ": " + recipesjson[i].ingredients[3].quantity + " " + recipesjson[i].ingredients[3].unit +
+    '<br>' + recipesjson[i].ingredients[4].ingredient + ": " + recipesjson[i].ingredients[4].quantity + " " + recipesjson[i].ingredients[4].unit;
     
-    /*description[i].innerHTML = photographers[i].tagline;
-    taggies[i].innerHTML = "#" + photographers[i].tags[0];
-    taggiesII[i].innerHTML = "#" + photographers[i].tags[1];
-    taggiesIII[i].innerHTML = "#" + photographers[i].tags[2];
-    taggiesIV[i].innerHTML = "#" + photographers[i].tags[3];
-    rate[i].innerHTML = photographers[i].price + "$";
-    totalLikes[i].innerHTML = "297 081" + "" +'<i class="fas fa-heart" aria-hidden="true"></i>';*/
+    //ingredients[i].innerHTML = recipesjson[i].ingredients[0].ingredient;
+
   }
