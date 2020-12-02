@@ -28,6 +28,11 @@ var recipes = [
                 "ingredient": "Ice cubes",
                 "quantity": " ",
                 "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 10,
@@ -389,6 +394,11 @@ var recipes = [
                 "ingredient": "Dry white wine",
                 "quantity": 30,
                 "unit": "cl"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 60,
@@ -459,6 +469,16 @@ var recipes = [
                 "ingredient": "Water",
                 "quantity" : "0.5",
                 "unit" : "cups"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 40,
@@ -496,6 +516,11 @@ var recipes = [
                 "ingredient": "olive oil",
                 "quantity": 2,
                 "unit": "tablespoon"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time":40,
@@ -616,6 +641,11 @@ var recipes = [
                 "ingredient": "olive oil",
                 "quantity": 2,
                 "unit": "tablespoon"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 45,
@@ -652,6 +682,11 @@ var recipes = [
                 "ingredient": "Mint",
                 "quantity" : " ",
                 "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 15,
@@ -678,6 +713,21 @@ var recipes = [
                 "ingredient": "Milk",
                 "quantity": 50,
                 "unit": "cl"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit": " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit": " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 10,
@@ -715,6 +765,11 @@ var recipes = [
                 "ingredient": "Banana",
                 "quantity": 1,
                 "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 0,
@@ -751,6 +806,11 @@ var recipes = [
                 "ingredient": "olive oil",
                 "quantity": 1,
                 "unit": "tablespoons"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 30,
@@ -828,6 +888,11 @@ var recipes = [
                 "ingredient": "Sugar",
                 "quantity": 150,
                 "unit": "grams"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 30,
@@ -946,6 +1011,11 @@ var recipes = [
                 "ingredient": "Egg",
                 "quantity": 1,
                 "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 30,
@@ -982,6 +1052,11 @@ var recipes = [
                 "ingredient": "Garlic",
                 "quantity": 1,
                 "unit": "cloves"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 25,
@@ -1019,6 +1094,11 @@ var recipes = [
                 "ingredient": "Salted butter",
                 "quantity": 50,
                 "unit": "grams"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 15,
@@ -1055,6 +1135,11 @@ var recipes = [
                 "ingredient": "Crème fraîche",
                 "quantity": 10,
                 "unit": "cl"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 80,
@@ -1091,6 +1176,11 @@ var recipes = [
                 "ingredient": "Paprika",
                 "quantity" : " ",
                 "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 30,
@@ -1117,6 +1207,11 @@ var recipes = [
                 "ingredient": "Garlic",
                 "quantity": 2,
                 "unit": "cloves"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 60,
@@ -1153,6 +1248,11 @@ var recipes = [
                 "ingredient": "Bacon",
                 "quantity": 150,
                 "unit": "grams"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 60,
@@ -1230,6 +1330,11 @@ var recipes = [
                 "ingredient": "Lemon juice",
                 "quantity": 1,
                 "unit": "tablespoons"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 5,
@@ -1260,6 +1365,16 @@ var recipes = [
             {
                 "ingredient": "Orange",
                 "quantity": 1,
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
                 "unit" : " "
             }
         ],
@@ -1416,6 +1531,16 @@ var recipes = [
                 "ingredient": "Brown sugar",
                 "quantity": 75,
                 "unit": "grams"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 20,
@@ -1447,6 +1572,16 @@ var recipes = [
                 "ingredient": "Brown sugar",
                 "quantity": 80,
                 "unit":"grams"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 40,
@@ -1478,6 +1613,16 @@ var recipes = [
                 "ingredient": "Baking soda",
                 "quantity": 1,
                 "unit": "teaspoons"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 10,
@@ -1504,6 +1649,21 @@ var recipes = [
                 "ingredient": "Vanilla sugar",
                 "quantity": 1,
                 "unit": "sachets"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 20,
@@ -1534,6 +1694,16 @@ var recipes = [
             {
                 "ingredient": "Ladyfingers",
                 "quantity": 15,
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
                 "unit" : " "
             }
         ],
@@ -1571,6 +1741,11 @@ var recipes = [
                 "ingredient": "Lemon",
                 "quantity" : " ",
                 "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 50,
@@ -1607,6 +1782,11 @@ var recipes = [
                 "ingredient": "flour",
                 "quantity": 40,
                 "unit": "grams"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 15,
@@ -1638,6 +1818,16 @@ var recipes = [
                 "ingredient": "Sugar",
                 "quantity": 80,
                 "unit":"grams"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 30,
@@ -1710,6 +1900,16 @@ var recipes = [
                 "ingredient": "Crème Fraîche",
                 "quantity": 20,
                 "unit":"cl"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 5,
@@ -1746,6 +1946,11 @@ var recipes = [
                 "ingredient": "Gruyere",
                 "quantity": 200,
                 "unit": "grams"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 40,
@@ -1782,6 +1987,11 @@ var recipes = [
                 "ingredient": "Honey",
                 "quantity": 2,
                 "unit": "tablespoons"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 0,
@@ -1818,6 +2028,11 @@ var recipes = [
                 "ingredient": "Icing sugar",
                 "quantity": 500,
                 "unit":"grams"
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 60,
@@ -1832,18 +2047,14 @@ var recipes = [
     var instructions = document.getElementsByClassName('instructions');
     var ingredients = document.getElementsByClassName('ingredientFlow');
     var recipesjson = recipes;
-    
-    
-
-  for(var i = 0; i < recipesjson.length; i++) {    
+    for(var i = 0; i < recipesjson.length; i++) {    
     recipe[i].innerHTML = recipesjson[i].name;
     preparationTime[i].innerHTML = recipesjson[i].time + "  " + '<i class="far fa-clock"></i>';
     instructions[i].innerHTML = recipesjson[i].description;
     ingredients[i].innerHTML= recipesjson[i].ingredients[0].ingredient + ": " + recipesjson[i].ingredients[0].quantity + recipesjson[i].ingredients[0].unit +
     '<br>' + recipesjson[i].ingredients[1].ingredient + ": " + recipesjson[i].ingredients[1].quantity + " " + recipesjson[i].ingredients[1].unit +
     '<br>' + recipesjson[i].ingredients[2].ingredient + ": " + recipesjson[i].ingredients[2].quantity + " " + recipesjson[i].ingredients[2].unit +
-    '<br>' + recipesjson[i].ingredients[3].ingredient + ": " + recipesjson[i].ingredients[3].quantity + " " + recipesjson[i].ingredients[3].unit +
-    '<br>' + recipesjson[i].ingredients[4].ingredient + ": " + recipesjson[i].ingredients[4].quantity + " " + recipesjson[i].ingredients[4].unit;
+    '<br>' + recipesjson[i].ingredients[3].ingredient + ": " + recipesjson[i].ingredients[3].quantity + " " + recipesjson[i].ingredients[3].unit ;
     
     //ingredients[i].innerHTML = recipesjson[i].ingredients[0].ingredient;
 
