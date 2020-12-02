@@ -36,7 +36,7 @@ var recipes = [
             }
         ],
         "time": 10,
-        "description": "Place the ice cubes to your taste in the blender, add the milk, the coconut cream, the juice from 2 lemons and the sugar. Blend to the desired consistency",
+        "description": "Place the ice cubes to your taste in the blender, add the milk, the coconut cream, the juice from 2 lemons and the sugar. Blend to the desired consistency.",
         "appliance": "Blender",
         "ustensils": ["tablespoons", "glasses", "lemon squeezer" ]
     },
@@ -77,7 +77,7 @@ var recipes = [
             }
         ],
         "time": 60,
-        "description": "Cut the tuna into cubes, place in a dish and cover with lime juice (better to use a wide, shallow dish). Place in the refrigerator for at least 2 hours. (If possible, prepare it the evening before. After leaving the fish to marinate, cut the cucumber, without the skin, into thin slices and the tomatoes, taking care to remove the seeds. Grate the carrot. Add the vegetables to the fish with the lemon in a salad bowl. Add the coconut milk. To add more flavor, you can add 1 to 2 tablespoons of coconut cream",
+        "description": "Cut the tuna into cubes, place in a dish and cover with lime juice (better to use a wide, shallow dish). Place in the refrigerator for at least 2 hours. (If possible, prepare it the evening before. After leaving the fish to marinate, cut the cucumber, without the skin, into thin slices and the tomatoes, taking care to remove the seeds. Grate the carrot. Add the vegetables to the fish with the lemon in a salad bowl. Add the coconut milk. To add more flavor, you can add 1 to 2 tablespoons of coconut cream.",
         "appliance": "Salad bowl",
         "ustensils": ["lemon squeezer"]
     },{
@@ -197,7 +197,7 @@ var recipes = [
            }                           // I had to curate the json file
         ],
         "time": 45,
-        "description": "Spread the dough to the size of the pan, spread the mustard on the dough, add the tuna. Cut the tomatoes into slices and place them on the fish, add a little crème fraîche to the whole pie and top with grated Gruyere. Bake for 30 minutes",
+        "description": "Spread the dough to the size of the pan, spread the mustard on the dough, add the tuna. Cut the tomatoes into slices and place them on the fish, add a little crème fraîche to the whole pie and top with grated Gruyere. Bake for 30 minutes.",
         "appliance":"Oven",
         "ustensils": ["pie dish", "cheese grater", "knife"]
     },
