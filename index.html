@@ -21,11 +21,20 @@
         <div class="input-group-append">
           <button class="btn btn-outline-secondary" type="button" id="magButton"> <i class="fas fa-search text-grey" aria-hidden="true"></i></button>
         </div>
+        <input type="hidden" name="categoriesString">
       </div>
+      <ul class="c" id="categoriesContainer"> <!--Categories Container-->
+        <li class="category">
+          <span class="nameCat">Testing</span>
+          <span onclick="removeCategory()" class="btnRemove bold"><i class="far fa-times-circle"></i></span>
+        </li>
+        <li class="category">
+          <span class="nameCat">Testing</span>
+          <span onclick="removeCategory()" class="btnRemove bold"><i class="far fa-times-circle"></i></span>
+        </li>
+      </ul>
     </div>
-    <div class="container c">
-      <!--Container for tags and filters-->
-    </div>
+    
     <div id="myData"></div>
        <div class="container d" id="items"><!--Container for card items-->
             <div class="row">
