@@ -1212,6 +1212,16 @@ var recipes = [
                 "ingredient": " ",
                 "quantity": " ",
                 "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
+            },
+            {
+                "ingredient": " ",
+                "quantity": " ",
+                "unit" : " "
             }
         ],
         "time": 60,
@@ -2054,7 +2064,9 @@ var recipes = [
     ingredients[i].innerHTML= recipesjson[i].ingredients[0].ingredient + ": " + recipesjson[i].ingredients[0].quantity + recipesjson[i].ingredients[0].unit +
     '<br>' + recipesjson[i].ingredients[1].ingredient + ": " + recipesjson[i].ingredients[1].quantity + " " + recipesjson[i].ingredients[1].unit +
     '<br>' + recipesjson[i].ingredients[2].ingredient + ": " + recipesjson[i].ingredients[2].quantity + " " + recipesjson[i].ingredients[2].unit +
-    '<br>' + recipesjson[i].ingredients[3].ingredient + ": " + recipesjson[i].ingredients[3].quantity + " " + recipesjson[i].ingredients[3].unit ;
+    '<br>' + recipesjson[i].ingredients[3].ingredient + ": " + recipesjson[i].ingredients[3].quantity + " " + recipesjson[i].ingredients[3].unit +
+    '<br>' + recipesjson[i].ingredients[4].ingredient + ": " + recipesjson[i].ingredients[4].quantity + " " + recipesjson[i].ingredients[4].unit +
+    '<br>' + recipesjson[i].ingredients[5].ingredient + ": " + recipesjson[i].ingredients[5].quantity + " " + recipesjson[i].ingredients[5].unit ;
     
     //ingredients[i].innerHTML = recipesjson[i].ingredients[0].ingredient;
 
