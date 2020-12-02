@@ -14,10 +14,18 @@
 
     function addNewCategory(nameCat){
         document.querySelector('#categoriesContainer').insertAdjacentHTML('beforeend',
-        `<li class="category">
+        `<li class="categoryRecipes">
             <span class="nameCat">${nameCat}</span>
             <span onclick="removeCategory(this)" class="btnRemove bold">X</span>
         </li>`
         )
     }
 }) ()
+
+//Add code to fetch categories with search elements
+
+//Remove Category
+function removeCategory(e){
+    e.parentElement.remove()
+    updateCategoriesString()
+}
