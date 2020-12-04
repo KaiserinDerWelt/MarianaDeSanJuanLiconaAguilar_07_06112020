@@ -66,7 +66,7 @@ background-color: #E7E7E7;
  .categoryRecipes{
      display: flex;
      width: fit-content;
-     background-color: rgb(255, 87, 25);
+     background-color: #0275d8 !important;
      color: #FFFFFF;
      padding: 10px 15px;
      border-radius: 8px;
