@@ -5,22 +5,22 @@ var recipes = [
         "servings" : 1,
         "ingredients": [
             {
-                "ingredient" : "Coconut milk: ",
+                "ingredient" : "Coconut milk",
                 "quantity" : 400,
                 "unit" : "ml"
             },
             {
-                "ingredient" : "Lemon juice: ",
+                "ingredient" : "Lemon juice",
                 "quantity" : 2,
                 "unit" : " "
             },
             {
-                "ingredient" : "Coconut cream: ",
+                "ingredient" : "Coconut cream",
                 "quantity" : 2,
                 "unit" : "tablespoons" //JSON HAD ERRORS, ENGLISH & FRENCH MIXED
             },
             {
-                "ingredient" : "Sugar: ",
+                "ingredient" : "Sugar",
                 "quantity" : 30,
                 "unit" : "grams"
             },
@@ -46,32 +46,32 @@ var recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient" : "Bluefin Tuna (or albacore): ",
+                "ingredient" : "Bluefin Tuna (or albacore)",
                 "quantity" : 200,
                 "unit" : "grams"
             },
             {
-                "ingredient" : "Cucumber: ",
+                "ingredient" : "Cucumber",
                 "quantity" : 1,
                 "unit" : " "
             },
             {
-                "ingredient" : "Tomato: ",
+                "ingredient" : "Tomato",
                 "quantity" : 2,
                 "unit" : " "
             },
             {
-                "ingredient" : "Carrot: ",
+                "ingredient" : "Carrot",
                 "quantity" : 1,
                 "unit" : " "
             },
             {
-                "ingredient" : "Lime: ",
+                "ingredient" : "Lime",
                 "quantity" : 5,
                 "unit" : " "
             },
             {
-                "ingredient" : "Coconut Milk: ",
+                "ingredient" : "Coconut Milk",
                 "quantity" : 100,
                 "unit" : "ml"
             }
@@ -82,31 +82,31 @@ var recipes = [
         "ustensils": ["lemon squeezer"]
     },{
         "id": 3,
-        "name": "Réunion Coconut Chicken: ",
+        "name": "Réunion Coconut Chicken",
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Chicken: ",
+                "ingredient": "Chicken",
                 "quantity" : 1,
                 "unit": " "          
             },
             {
-                "ingredient": "Coconut milk: ",
+                "ingredient": "Coconut milk",
                 "quantity" : 400,
                 "unit" : "ml"
             },
             {
-                "ingredient": "Tomato coulis: ",
+                "ingredient": "Tomato coulis",
                 "quantity" : 25,
                 "unit" : "cl"
             },
             {
-                "ingredient": "Onion: ",
+                "ingredient": "Onion",
                 "quantity" : 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Red pepper: ",
+                "ingredient": "Red pepper",
                 "quantity": 1,
                 "unit" : " "
             },
@@ -126,31 +126,31 @@ var recipes = [
         "servings": 4,
         "ingredients":[
             {
-                "ingredient": "White rice: ",
+                "ingredient": "White rice",
                 "quantity": 500,
                 "unit": "grams"
             },
             {
-                "ingredient": "Crumbled tuna: ",
+                "ingredient": "Crumbled tuna",
                 "quantity": 200,
                 "unit": "grams"
             },{
-                "ingredient": "Tomato: ",
+                "ingredient": "Tomato",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Hard-boiled egg: ",
+                "ingredient": "Hard-boiled egg",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Corn: ",
+                "ingredient": "Corn",
                 "quantity": 300,
                 "unit": "grams"
             },
             {
-                "ingredient": "Dressing: ",
+                "ingredient": "Dressing",
                 "quantity": 5,
                 "unit": "cl"
             }
@@ -166,32 +166,32 @@ var recipes = [
         "servings": 4,
         "ingredients":[
            {
-               "ingredient": "Pastry dough: ",
+               "ingredient": "Pastry dough",
                "quantity": 1,
                "unit" : " "
            },
            {
-               "ingredient": "Crumbled tuna: ",
+               "ingredient": "Crumbled tuna",
                "quantity": 130,
                "unit": "grams"
            },
            {
-                "ingredient": "Tomato: ",
+                "ingredient": "Tomato",
                 "quantity": 2,
                 "unit" : " "
            },
            {
-               "ingredient": "Crème fraîche: ",
+               "ingredient": "Crème fraîche",
                "quantity": 2,
                "unit": "tablespoons"
            },
            {
-               "ingredient": "grated Gruyere: ",
+               "ingredient": "grated Gruyere",
                "quantity": 100,
                "unit": "grams"
            },
            {
-                "ingredient": "Dijon mustard: ",
+                "ingredient": "Dijon mustard",
                 "quantity": 1,
                 "unit": "tablespoons" //More errors cause the file is in french and english
            }                           // I had to curate the json file
@@ -207,32 +207,32 @@ var recipes = [
         "servings": 6,
         "ingredients":[
             {
-                "ingredient": "Short crust pastry: ",
+                "ingredient": "Short crust pastry",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Apple: ",
+                "ingredient": "Apples",
                 "quantity": 3,
                 "unit" : " "
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": "2",
                 "unit" : " "
             },
             {
-                "ingredient":"Crème fraîche: ",
+                "ingredient":"Crème fraîche",
                 "quantity":25,
                 "unit": "cl"
             },
             {
-                "ingredient": "Powdered sugar: ",
+                "ingredient": "Powdered sugar",
                 "quantity": 100,
                 "unit":"grams"
             },
             {
-                "ingredient": "Vanilla sugar: ",
+                "ingredient": "Vanilla sugar",
                 "quantity": 1,
                 "unit": "sachets"
 
@@ -248,27 +248,27 @@ var recipes = [
         "servings": 6,
         "ingredients":[
             {
-                "ingredient": "Shortbread pastry dough: ",
+                "ingredient": "Shortbread pastry dough",
                 "quantity": 1,
                 "unit" : " "
             }, 
             {
-                "ingredient": "Milk chocolate: ",
+                "ingredient": "Milk chocolate",
                 "quantity": 300,
                 "unit": "grams"
             },
             {
-                "ingredient": "Liquid cream: ",
+                "ingredient": "Liquid cream",
                 "quantity": 80,
                 "unit": "cl"
             },
             {
-                "ingredient": "Butter: ",
+                "ingredient": "Butter",
                 "quantity": "30",
                 "unit": "grams"
             },
             {
-                "ingredient": "Strawberry: ",
+                "ingredient": "Strawberry",
                 "quantity": 6,
                 "unit" : " "
             },
@@ -281,39 +281,39 @@ var recipes = [
         "time": 50,
         "description": "Spread the dough into the tartlet pans. Cook the dough for 30 minutes. Cut the chocolate into pieces and heat it up, add the liquid cream to it, add the butter and stir until you have a smooth paste. Pour the paste onto the tartlets. Cut the strawberries in half and place them on top ",
         "appliance":"Oven",
-        "ustensils":["moule à tartelettes (6)", "casserolle"]
+        "ustensils":["moule à tartelettes", "casserolle"]
     }, {
         "id": 8,
         "name": "Brownie",
         "servings": 10,
         "ingredients":[
            {
-                "ingredient": "Nuts: ",
+                "ingredient": "Nuts",
                 "quantity": "180",
                 "unit": "grams"
            },
            {
-               "ingredient": "Dark chocolate: ",
+               "ingredient": "Dark chocolate",
                "quantity": 150,
                "unit": "grams"
            },
            {
-               "ingredient": "Butter: ",
+               "ingredient": "Butter",
                "quantity": 120,
                "unit": "grams"
            },
            {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 2,
                 "unit" : " "
            },
            {
-               "ingredient": "Powdered sugar: ",
+               "ingredient": "Powdered sugar",
                "quantity": "110",
                "unit": "grams"
            },
            {
-                "ingredient": "flour: ",
+                "ingredient": "flour",
                 "quantity": 90,
                 "unit": "grams"
            }
@@ -330,7 +330,7 @@ var recipes = [
         "servings": 4,
         "ingredients":[
             {
-                "ingredient": "Cucumber: ",
+                "ingredient": "Cucumber",
                 "quantity": 1,
                 "unit" : " "
             },
@@ -340,7 +340,7 @@ var recipes = [
                 "unit" : " "
             },
             {
-                "ingredient": "Goat's cheese: ",
+                "ingredient": "Goat's cheese",
                 "quantity": 150,
                 "unit": "grams"
             },
@@ -371,27 +371,27 @@ var recipes = [
         "servings": 4,
         "ingredients":[
             {
-                "ingredient": "Reblochon: ",
+                "ingredient": "Reblochon",
                 "quantity": "1",
                 "unit" : " "
             },
             {
-                "ingredient": "Potatoes: ",
+                "ingredient": "Potatoes",
                 "quantity": 4.5,
                 "unit": "kg"
             },
             {
-                "ingredient": "Smoked ham: ",
+                "ingredient": "Smoked ham",
                 "quantity": 2,
                 "unit": "slices"
             },
             {
-                "ingredient": "Onion: ",
+                "ingredient": "Onion",
                 "quantity": 300,
                 "unit": "grams"
             },
             {
-                "ingredient": "Dry white wine: ",
+                "ingredient": "Dry white wine",
                 "quantity": 30,
                 "unit": "cl"
             },
@@ -411,32 +411,32 @@ var recipes = [
         "servings": 4,
         "ingredients":[
             {
-                "ingredient": "Cherry tomatoes: ",
+                "ingredient": "Cherry tomatoes",
                 "quantity": 250,
                 "unit": "grams"
             },
             {
-                "ingredient": "Mozzarella: ",
+                "ingredient": "Mozzarella",
                 "quantity": 150,
                 "unit": "grams"
             },
             {
-                "ingredient": "Parma ham: ",
+                "ingredient": "Parma ham",
                 "quantity": 4,
                 "unit": "slices"
             }, 
             {
-                "ingredient": "Apples: ",
+                "ingredient": "Apples",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Green salad: ",
+                "ingredient": "Green salad",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Dressing: ",
+                "ingredient": "Dressing",
                 "quantity": 5,
                 "unit": "cl"
             }
@@ -451,22 +451,22 @@ var recipes = [
         "servings": 4,
         "ingredients":[
             {
-                "ingredient": "Rhubarb: ",
+                "ingredient": "Rhubarb",
                 "quantity": 160,
                 "unit": "grams"
             },
             {
-                "ingredient": "Apples: ",
+                "ingredient": "Apples",
                 "quantity": 8,
                 "unit" : " "
             },
             {
-                "ingredient": "Vanilla sugar: ",
+                "ingredient": "Vanilla sugar",
                 "quantity": 6,
                 "unit": "sachets"
             },
             {
-                "ingredient": "Water: ",
+                "ingredient": "Water",
                 "quantity" : "0.5",
                 "unit" : "cups"
             },
@@ -492,28 +492,28 @@ var recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Mashed: ",
+                "ingredient": "Mashed",
                 "quantity": 60,
                 "unit": "grams"
             },
             {
-                "ingredient": "Potatoes: ",
+                "ingredient": "Potatoes",
                 "quantity": 200,
                 "unit": "grams"
             },
             {
-                "ingredient": "Shallot: ",
+                "ingredient": "Shallot",
                 "quantity": 2,
                 "unit" : " "
 
             },
             {
-                "ingredient": "Cider vinegar: ",
+                "ingredient": "Cider vinegar",
                 "quantity": 1,
                 "unit":"tablespoon"
             },
             {
-                "ingredient": "olive oil: ",
+                "ingredient": "olive oil",
                 "quantity": 2,
                 "unit": "tablespoon"
             },
@@ -534,33 +534,33 @@ var recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Breton or Toulouse sausage : ",
+                "ingredient": "Breton or Toulouse sausage ",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Buckwheat flour : ",
+                "ingredient": "Buckwheat flour ",
                 "quantity": 130,
                 "unit": "grams"
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 1,
                 "unit" : " "
 
             },
             {
-                "ingredient": "Raclette cheese: ",
+                "ingredient": "Raclette cheese",
                 "quantity": 300,
                 "unit":"grams"
             },
             {
-                "ingredient": "Onion: ",
+                "ingredient": "Onion",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Butter: ",
+                "ingredient": "Butter",
                 "quantity": 75,
                 "unit": "grams"
             }
@@ -577,32 +577,32 @@ var recipes = [
         "servings": 10,
         "ingredients": [
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 3,
                 "unit" : " "
             },
             {
-                "ingredient": "Flour: ",
+                "ingredient": "Flour",
                 "quantity": 250,
                 "unit": "grams"
             },
             {
-                "ingredient": "Milk: ",
+                "ingredient": "Milk",
                 "quantity": 600,
                 "unit": "ml"
             },
             {
-                "ingredient": "Salted butter: ",
+                "ingredient": "Salted butter",
                 "quantity": 30,
                 "unit":"grams"
             },
             {
-                "ingredient": "Milk chocolate: ",
+                "ingredient": "Milk chocolate",
                 "quantity": 100,
                 "unit": "grams"
             },
             {
-                "ingredient": "Banana: ",
+                "ingredient": "Banana",
                 "quantity": 4,
                 "unit" : " "
             }
@@ -618,27 +618,27 @@ var recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Tomato: ",
+                "ingredient": "Tomato",
                 "quantity": 500,
                 "unit": "grams"
             },
             {
-                "ingredient": "Mozzarella: ",
+                "ingredient": "Mozzarella",
                 "quantity": 250,
                 "unit": "grams"
             },
             {
-                "ingredient": "Penne: ",
+                "ingredient": "Penne",
                 "quantity": 500,
                 "unit": "grams"
             },
             {
-                "ingredient": "Basil: ",
+                "ingredient": "Basil",
                 "quantity": 1,
                 "unit":"vines"
             },
             {
-                "ingredient": "olive oil: ",
+                "ingredient": "olive oil",
                 "quantity": 2,
                 "unit": "tablespoon"
             },
@@ -659,22 +659,22 @@ var recipes = [
         "servings": 6,
         "ingredients": [
             {
-                "ingredient": "Strawberry: ",
+                "ingredient": "Strawberry",
                 "quantity": 500,
                 "unit": "grams"
             },
             {
-                "ingredient": "Watermelon: ",
+                "ingredient": "Watermelon",
                 "quantity": 0.5,
                 "unit" : " "
             },
             {
-                "ingredient": "Lemon juice: ",
+                "ingredient": "Lemon juice",
                 "quantity": 1,
                 "unit":"tablespoons"
             },
             {
-                "ingredient": "Ice cubes: ",
+                "ingredient": "Ice cubes",
                 "quantity": 8,
                 "unit" : " "
             },
@@ -700,17 +700,17 @@ var recipes = [
         "servings": 5,
         "ingredients": [
             {
-                "ingredient": "Pineapple: ",
+                "ingredient": "Pineapple",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Vanilla ice cream: ",
+                "ingredient": "Vanilla ice cream",
                 "quantity": 500,
                 "unit": "ml"
             },
             {
-                "ingredient": "Milk: ",
+                "ingredient": "Milk",
                 "quantity": 50,
                 "unit": "cl"
             },
@@ -741,28 +741,28 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Kiwi Fruit: ",
+                "ingredient": "Kiwi Fruit",
                 "quantity": 4,
                 "unit" : " "
         
             },
             {
-                "ingredient": "Lemon: ",
+                "ingredient": "Lemon",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Milk: ",
+                "ingredient": "Milk",
                 "quantity": 1,
                 "unit": "liters"
             },
             {
-                "ingredient": "Icing sugar: ",
+                "ingredient": "Icing sugar",
                 "quantity": 30,
                 "unit":"grams"
             },
             {
-                "ingredient": "Banana: ",
+                "ingredient": "Banana",
                 "quantity": 1,
                 "unit" : " "
             },
@@ -783,27 +783,27 @@ var recipes = [
         "servings": 5,
         "ingredients": [
             {
-                "ingredient": "Tagliatelle: ",
+                "ingredient": "Tagliatelle",
                 "quantity": 500,
                 "unit": "grams"
             },
             {
-                "ingredient": "Lardons: ",
+                "ingredient": "Lardons",
                 "quantity": 150,
                 "unit": "grams"
             },
             {
-                "ingredient": "Crème fraîche: ",
+                "ingredient": "Crème fraîche",
                 "quantity": 200,
                 "unit": "grams"
             },
             {
-                "ingredient": "Parmesan: ",
+                "ingredient": "Parmesan",
                 "quantity": 100,
                 "unit":"grams"
             },
             {
-                "ingredient": "olive oil: ",
+                "ingredient": "olive oil",
                 "quantity": 1,
                 "unit": "tablespoons"
             },
@@ -824,39 +824,39 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Spaghetti: ",
+                "ingredient": "Spaghetti",
                 "quantity": 400,
                 "unit": "grams"
             },
             {
-                "ingredient": "Onion: ",
+                "ingredient": "Onion",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Tomato coulis: ",
+                "ingredient": "Tomato coulis",
                 "quantity": 300,
                 "unit":"grams"
             },
             {
-                "ingredient": "Minced meat, 1% fat: ",
+                "ingredient": "Minced meat, 1% fat",
                 "quantity": 400,
                 "unit":"grams"
             },
             {
-                "ingredient": "Red wine: ",
+                "ingredient": "Red wine",
                 "quantity": 20,
                 "unit": "cl"
             },
             {
-                "ingredient": "Crème Fraîche: ",
+                "ingredient": "Crème Fraîche",
                 "quantity" : 1,
                 "unit": "tablespoons"
             }
         ],
         "time": 30,
         "description":"Cook the minced meat in a frying pan. In another, cook the onions, chopped into thin cubes, with a bit of butter. Add some red wine. Mix the onions with the minced meat. Cook the pasta for the time shown on the packet. Add the tomato coulis to the minced meat. Once the pasta is cooked, add the crème fraîche to the minced meat. Serve.",
-        "appliance": "Pan.",
+        "appliance": "Pan",
         "ustensils":["Cuillère en bois", "louche", "couteau"]
     },
     {
@@ -865,27 +865,27 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Butter: ",
+                "ingredient": "Butter",
                 "quantity": 160,
                 "unit": "grams"
             },
             {
-                "ingredient": "Dark chocolate: ",
+                "ingredient": "Dark chocolate",
                 "quantity": 200,
                 "unit": "grams"
             },
             {
-                "ingredient": "Flour: ",
+                "ingredient": "Flour",
                 "quantity": 50,
                 "unit": "grams"
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 4,
                 "unit" : " "
             },
             {
-                "ingredient": "Sugar: ",
+                "ingredient": "Sugar",
                 "quantity": 150,
                 "unit": "grams"
             },
@@ -906,32 +906,32 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Short crust pastry dough: ",
+                "ingredient": "Short crust pastry dough",
                 "quantity": 200,
                 "unit": "grams"
             },
             {
-                "ingredient": "Lardons: ",
+                "ingredient": "Lardons",
                 "quantity": 200,
                 "unit": "grams"
             },
             {
-                "ingredient": "Butter: ",
+                "ingredient": "Butter",
                 "quantity": 30,
                 "unit": "grams"
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 3,
                 "unit" : " "
             },
             {
-                "ingredient": "Crème Fraîche: ",
+                "ingredient": "Crème Fraîche",
                 "quantity": 20,
                 "unit": "cl"
             },
             {
-                "ingredient": "Milk: ",
+                "ingredient": "Milk",
                 "quantity": 20,
                 "unit": "cl"
             }
@@ -947,32 +947,32 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Crumbled tuna: ",
+                "ingredient": "Crumbled tuna",
                 "quantity": 160,
                 "unit": "grams"
             },
             {
-                "ingredient": "Corn: ",
+                "ingredient": "Corn",
                 "quantity": 60,
                 "unit": "grams"
             },
             {
-                "ingredient": "Tomato: ",
+                "ingredient": "Tomato",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Cucumber: ",
+                "ingredient": "Cucumber",
                 "quantity": 0.5,
                 "unit" : " "
             },
             {
-                "ingredient": "Macaroni: ",
+                "ingredient": "Macaroni",
                 "quantity": 300,
                 "unit": "grams"
             },
             {
-                "ingredient": "Mayonnaise: ",
+                "ingredient": "Mayonnaise",
                 "quantity": 2,
                 "unit": "tablespoons"
             }
@@ -988,27 +988,27 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Sugar: ",
+                "ingredient": "Sugar",
                 "quantity": 100,
                 "unit": "grams"
             },
             {
-                "ingredient": "Butter: ",
+                "ingredient": "Butter",
                 "quantity": 100,
                 "unit": "grams"
             },
             {
-                "ingredient": "Flour: ",
+                "ingredient": "Flour",
                 "quantity": 100,
                 "unit": "grams"
             },
             {
-                "ingredient": "Dark chocolate chips: ",
+                "ingredient": "Dark chocolate chips",
                 "quantity": 100,
                 "unit":"grams"
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 1,
                 "unit" : " "
             },
@@ -1029,12 +1029,12 @@ var recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Tomato: ",
+                "ingredient": "Tomato",
                 "quantity": 6,
                 "unit" : " "
             },
             {
-                "ingredient": "Potatoes: ",
+                "ingredient": "Potatoes",
                 "quantity": 1,
                 "unit" : " "
             },
@@ -1044,12 +1044,12 @@ var recipes = [
                 "unit" : " "
             },
             {
-                "ingredient": "Onion: ",
+                "ingredient": "Onion",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Garlic: ",
+                "ingredient": "Garlic",
                 "quantity": 1,
                 "unit": "cloves"
             },
@@ -1070,28 +1070,28 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Sorrel: ",
+                "ingredient": "Sorrel",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Crème fraîche: ",
+                "ingredient": "Crème fraîche",
                 "quantity": 4,
                 "unit": "tablespoon",
                 "unit" : " "
             },
             {
-                "ingredient": "Noodles: ",
+                "ingredient": "Noodles",
                 "quantity": 1,
                 "unit":"glasses"
             },
             {
-                "ingredient": "Salted butter: ",
+                "ingredient": "Salted butter",
                 "quantity": 50,
                 "unit": "grams"
             },
@@ -1112,27 +1112,27 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Leek: ",
+                "ingredient": "Leek",
                 "quantity": 3,
                 "unit" : " "
             },
             {
-                "ingredient": "Potatoes: ",
+                "ingredient": "Potatoes",
                 "quantity": 400,
                 "unit": "grams"
             },
             {
-                "ingredient": "Sorrel: ",
+                "ingredient": "Sorrel",
                 "quantity": 75,
                 "unit": "grams"
             },
             {
-                "ingredient": "Butter: ",
+                "ingredient": "Butter",
                 "quantity": 50,
                 "unit":"grams"
             },
             {
-                "ingredient": "Crème fraîche: ",
+                "ingredient": "Crème fraîche",
                 "quantity": 10,
                 "unit": "cl"
             },
@@ -1153,17 +1153,17 @@ var recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Chickpeas: ",
+                "ingredient": "Chickpeas",
                 "quantity": 1,
                 "unit": "tins"
             },
             {
-                "ingredient": "Garlic: ",
+                "ingredient": "Garlic",
                 "quantity": 1,
                 "unit": "cloves"
             },
             {
-                "ingredient": "Lemon: ",
+                "ingredient": "Lemon",
                 "quantity": 2,
                 "unit" : " "
             },
@@ -1194,17 +1194,17 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Split Pea: ",
+                "ingredient": "Split Pea",
                 "quantity": 500,
                 "unit": "grams"
             },
             {
-                "ingredient": "Onion: ",
+                "ingredient": "Onion",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Garlic: ",
+                "ingredient": "Garlic",
                 "quantity": 2,
                 "unit": "cloves"
             },
@@ -1235,27 +1235,27 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Carrot: ",
+                "ingredient": "Carrot",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Potatoes: ",
+                "ingredient": "Potatoes",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Green beans: ",
+                "ingredient": "Green beans",
                 "quantity": 150,
                 "unit": "grams"
             },
             {
-                "ingredient": "Peas: ",
+                "ingredient": "Peas",
                 "quantity": 100,
                 "unit":"grams"
             },
             {
-                "ingredient": "Bacon: ",
+                "ingredient": "Bacon",
                 "quantity": 150,
                 "unit": "grams"
             },
@@ -1276,32 +1276,32 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Sandwich bread: ",
+                "ingredient": "Sandwich bread",
                 "quantity": 8,
                 "unit": "slices"
             },
             {
-                "ingredient": "Turkey breast: ",
+                "ingredient": "Turkey breast",
                 "quantity": 4,
                 "unit": "slices"
             },
             {
-                "ingredient": "Emmental: ",
+                "ingredient": "Emmental",
                 "quantity": 8,
                 "unit": "slices"
             },
             {
-                "ingredient": "Gruyere: ",
+                "ingredient": "Gruyere",
                 "quantity": 100,
                 "unit":"grams"
             },
             {
-                "ingredient": "Milk: ",
+                "ingredient": "Milk",
                 "quantity": 5,
                 "unit": "cl"
             },
             {
-                "ingredient": "Nutmeg: ",
+                "ingredient": "Nutmeg",
                 "quantity": 1,
                 "unit": "pinches"
             }
@@ -1317,27 +1317,27 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Sandwich bread: ",
+                "ingredient": "Sandwich bread",
                 "quantity": 8,
                 "unit": "slices"
             },
             {
-                "ingredient": "Smoked Salmon: ",
+                "ingredient": "Smoked Salmon",
                 "quantity": 4,
                 "unit": "slices"
             },
             {
-                "ingredient": "Lettuce leaves: ",
+                "ingredient": "Lettuce leaves",
                 "quantity": 4,
                 "unit" : " "
             },
             {
-                "ingredient": "Cottage cheese: ",
+                "ingredient": "Cottage cheese",
                 "quantity": 4,
                 "unit":"tablespoons"
             },
             {
-                "ingredient": "Lemon juice: ",
+                "ingredient": "Lemon juice",
                 "quantity": 1,
                 "unit": "tablespoons"
             },
@@ -1358,12 +1358,12 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Sweet potato: ",
+                "ingredient": "Sweet potato",
                 "quantity": 800,
                 "unit": "grams"
             },
             {
-                "ingredient": "Crème fraîche: ",
+                "ingredient": "Crème fraîche",
                 "quantity": 20,
                 "unit": "cl"
             },
@@ -1373,7 +1373,7 @@ var recipes = [
                 "unit" : " "
             },
             {
-                "ingredient": "Orange: ",
+                "ingredient": "Orange",
                 "quantity": 1,
                 "unit" : " "
             },
@@ -1399,32 +1399,32 @@ var recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Carrot: ",
+                "ingredient": "Carrot",
                 "quantity": 6,
                 "unit" : " "
             },
             {
-                "ingredient": "Potatoes: ",
+                "ingredient": "Potatoes",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Butter: ",
+                "ingredient": "Butter",
                 "quantity": 20,
                 "unit": "grams"
             },
             {
-                "ingredient": "Crème fraîche: ",
+                "ingredient": "Crème fraîche",
                 "quantity": 2,
                 "unit":"tablespoons"
             },
             {
-                "ingredient": "Cumin: ",
+                "ingredient": "Cumin",
                 "quantity": 1,
                 "unit": "teaspoons"
             },
             {
-                "ingredient": "Nutmeg: ",
+                "ingredient": "Nutmeg",
                 "quantity": 1,
                 "unit": "pinches"
             }
@@ -1440,32 +1440,32 @@ var recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Zucchini: ",
+                "ingredient": "Zucchini",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Goat's cheese: ",
+                "ingredient": "Goat's cheese",
                 "quantity" : " ",
                 "quantity": 4
             },
             {
-                "ingredient": "Milk: ",
+                "ingredient": "Milk",
                 "quantity": 25,
                 "unit": "cl"
             },
             {
-                "ingredient": "Lasagne: ",
+                "ingredient": "Lasagne",
                 "quantity": 5,
                 "unit":"sheets"
             },
             {
-                "ingredient": "Gruyere: ",
+                "ingredient": "Gruyere",
                 "quantity": 40,
                 "unit": "grams"
             },
             {
-                "ingredient": "Corn starch: ",
+                "ingredient": "Corn starch",
                 "quantity": 1,
                 "unit": "tablespoons"
             }
@@ -1481,32 +1481,32 @@ var recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Zucchini: ",
+                "ingredient": "Zucchini",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Minced meat: ",
+                "ingredient": "Minced meat",
                 "quantity": 600,
                 "unit": "grams"
             },
             {
-                "ingredient": "Olive oil: ",
+                "ingredient": "Olive oil",
                 "quantity": 25,
                 "unit": "cl"
             },
             {
-                "ingredient": "Onion: ",
+                "ingredient": "Onion",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Tomato coulis: ",
+                "ingredient": "Tomato coulis",
                 "quantity": 20,
                 "unit": "cl"
             },
             {
-                "ingredient": "Gruyere: ",
+                "ingredient": "Gruyere",
                 "quantity": 50,
                 "unit": "grams"
             }
@@ -1523,22 +1523,22 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Bread: ",
+                "ingredient": "Bread",
                 "quantity": 6,
                 "unit":"slices"
             },
             {
-                "ingredient": "Milk: ",
+                "ingredient": "Milk",
                 "quantity": 25,
                 "unit": "cl"
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 3,
                 "unit" : " "
             },
             {
-                "ingredient": "Brown sugar: ",
+                "ingredient": "Brown sugar",
                 "quantity": 75,
                 "unit": "grams"
             },
@@ -1564,22 +1564,22 @@ var recipes = [
         "servings": 40,
         "ingredients": [
             {
-                "ingredient": "Apple: ",
+                "ingredient": "Apples",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Flour: ",
+                "ingredient": "Flour",
                 "quantity": 100,
                 "unit": "grams"
             },
             {
-                "ingredient": "Butter: ",
+                "ingredient": "Butter",
                 "quantity": 50,
                 "unit": "grams"
             },
             {
-                "ingredient": "Brown sugar: ",
+                "ingredient": "Brown sugar",
                 "quantity": 80,
                 "unit":"grams"
             },
@@ -1605,22 +1605,22 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Water: ",
+                "ingredient": "Water",
                 "quantity": 1,
                 "unit": "Liters"
             },
             {
-                "ingredient": "Lime: ",
+                "ingredient": "Lime",
                 "quantity": 3,
                 "unit" : " "
             },
             {
-                "ingredient": "Powdered sugar: ",
+                "ingredient": "Powdered sugar",
                 "quantity": 4,
                 "unit":"teaspoons"
             },
             {
-                "ingredient": "Baking soda: ",
+                "ingredient": "Baking soda",
                 "quantity": 1,
                 "unit": "teaspoons"
             },
@@ -1646,17 +1646,17 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 3,
                 "unit" : " "
             },
             {
-                "ingredient": "Dark chocolate: ",
+                "ingredient": "Dark chocolate",
                 "quantity": 100,
                 "unit": "grams"
             },
             {
-                "ingredient": "Vanilla sugar: ",
+                "ingredient": "Vanilla sugar",
                 "quantity": 1,
                 "unit": "sachets"
             },
@@ -1687,22 +1687,22 @@ var recipes = [
         "servings": 3,
         "ingredients": [
             {
-                "ingredient": "Chocolate: ",
+                "ingredient": "Chocolate",
                 "quantity": 200,
                 "unit": "grams"
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 3,
                 "unit" : " "
             },
             {
-                "ingredient": "Pears in juice: ",
+                "ingredient": "Pears in juice",
                 "quantity": 0.5,
                 "unit" : "cans"
             },
             {
-                "ingredient": "Ladyfingers: ",
+                "ingredient": "Ladyfingers",
                 "quantity": 15,
                 "unit" : " "
             },
@@ -1728,22 +1728,22 @@ var recipes = [
         "servings": 6,
         "ingredients": [
             {
-                "ingredient": "Short crust pastry dough: ",
+                "ingredient": "Short crust pastry dough",
                 "quantity": 200,
                 "unit": "grams"
             },
             {
-                "ingredient": "Sugar: ",
+                "ingredient": "Sugar",
                 "quantity": 150,
                 "unit": "grams"
             },
             {
-                "ingredient": "Melted butter: ",
+                "ingredient": "Melted butter",
                 "quantity": 100,
                 "unit": "grams"
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 3,
                 "unit" : " "
             },
@@ -1769,27 +1769,27 @@ var recipes = [
         "servings": 6,
         "ingredients": [
             {
-                "ingredient": "Milk: ",
+                "ingredient": "Milk",
                 "quantity": 1,
                 "unit": "liters"
             },
             {
-                "ingredient": "Chocolate: ",
+                "ingredient": "Chocolate",
                 "quantity": 200,
                 "unit": "grams"
             },
             {
-                "ingredient": "Sugar: ",
+                "ingredient": "Sugar",
                 "quantity": 100,
                 "unit": "grams"
             },
             {
-                "ingredient": "Butter: ",
+                "ingredient": "Butter",
                 "quantity": 50,
                 "unit":"grams"
             },
             {
-                "ingredient": "flour: ",
+                "ingredient": "flour",
                 "quantity": 40,
                 "unit": "grams"
             },
@@ -1810,22 +1810,22 @@ var recipes = [
         "servings": 8,
         "ingredients": [
             {
-                "ingredient": "Milk: ",
+                "ingredient": "Milk",
                 "quantity": 50,
                 "unit": "cl"
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Flour: ",
+                "ingredient": "Flour",
                 "quantity": 30,
                 "unit": "grams"
             },
             {
-                "ingredient": "Sugar: ",
+                "ingredient": "Sugar",
                 "quantity": 80,
                 "unit":"grams"
             },
@@ -1851,32 +1851,32 @@ var recipes = [
         "servings": 6,
         "ingredients": [
             {
-                "ingredient": "Flour: ",
+                "ingredient": "Flour",
                 "quantity": 250,
                 "unit": "grams"
             },
             {
-                "ingredient": "Sugar: ",
+                "ingredient": "Sugar",
                 "quantity": 150,
                 "unit": "grams"
             },
             {
-                "ingredient": "Vanilla sugar: ",
+                "ingredient": "Vanilla sugar",
                 "quantity": 1,
                 "unit": "sachets"
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 4,
                 "unit" : " "
             },
             {
-                "ingredient": "Milk: ",
+                "ingredient": "Milk",
                 "quantity": 1,
                 "unit": "liter"
             },
             {
-                "ingredient": "Plums: ",
+                "ingredient": "Plums",
                 "quantity": 100,
                 "unit": "grams"
             }
@@ -1892,22 +1892,22 @@ var recipes = [
         "servings": 6,
         "ingredients": [
             {
-                "ingredient": "Lemon juice: ",
+                "ingredient": "Lemon juice",
                 "quantity": 100,
                 "unit": "grams"
             },
             {
-                "ingredient": "Mascarpone: ",
+                "ingredient": "Mascarpone",
                 "quantity": 250,
                 "unit": "grams"
             },
             {
-                "ingredient": "Sugar: ",
+                "ingredient": "Sugar",
                 "quantity": 100,
                 "unit": "grams"
             },
             {
-                "ingredient": "Crème Fraîche: ",
+                "ingredient": "Crème Fraîche",
                 "quantity": 20,
                 "unit":"cl"
             },
@@ -1933,27 +1933,27 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Pizza dough: ",
+                "ingredient": "Pizza dough",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Peeled tomatoes: ",
+                "ingredient": "Peeled tomatoes",
                 "quantity": 1,
                 "unit": "cans"
             },
             {
-                "ingredient": "Bacon: ",
+                "ingredient": "Bacon",
                 "quantity": 1,
                 "unit": "trays"
             },
             {
-                "ingredient": "Button mushrooms: ",
+                "ingredient": "Button mushrooms",
                 "quantity": 1,
                 "unit":"cans"
             },
             {
-                "ingredient": "Gruyere: ",
+                "ingredient": "Gruyere",
                 "quantity": 200,
                 "unit": "grams"
             },
@@ -1974,27 +1974,27 @@ var recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Bananas: ",
+                "ingredient": "Bananas",
                 "quantity": 2,
                 "unit" : " "
             },
             {
-                "ingredient": "Kiwis: ",
+                "ingredient": "Kiwis",
                 "quantity": 3,
                 "unit" : " "
             },
             {
-                "ingredient": "Mango: ",
+                "ingredient": "Mango",
                 "quantity": 1,
                 "unit" : " "
             },
             {
-                "ingredient": "Pineapple: ",
+                "ingredient": "Pineapple",
                 "quantity": 4,
                 "unit":"slices"
             },
             {
-                "ingredient": "Honey: ",
+                "ingredient": "Honey",
                 "quantity": 2,
                 "unit": "tablespoons"
             },
@@ -2015,27 +2015,27 @@ var recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Pastry dough: ",
+                "ingredient": "Pastry dough",
                 "quantity": 400,
                 "unit":"grams"
             },
             {
-                "ingredient": "Egg: ",
+                "ingredient": "Egg",
                 "quantity": 6,
                 "unit" : " "
             },
             {
-                "ingredient": "Ground almonds: ",
+                "ingredient": "Ground almonds",
                 "quantity": 500,
                 "unit": "grams"
             },
             {
-                "ingredient": "Butter: ",
+                "ingredient": "Butter",
                 "quantity": 500,
                 "unit": "grams"
             },
             {
-                "ingredient": "Icing sugar: ",
+                "ingredient": "Icing sugar",
                 "quantity": 500,
                 "unit":"grams"
             },
@@ -2053,18 +2053,27 @@ var recipes = [
 ]
 
     var recipe = document.getElementsByClassName('recipeName');
+    var cards = document.getElementsByClassName('card');
     var preparationTime = document.getElementsByClassName('time');
     var instructions = document.getElementsByClassName('instructions');
     var ingredients = document.getElementsByClassName('ingredientFlow');
     var recipesjson = recipes;
     for(var i = 0; i < recipesjson.length; i++) {    
+    cards[i].id = recipes[i].id
     recipe[i].innerHTML = recipesjson[i].name;
     preparationTime[i].innerHTML = recipesjson[i].time + "  " + '<i class="far fa-clock"></i>';
     instructions[i].innerHTML = recipesjson[i].description;
-    ingredients[i].innerHTML= recipesjson[i].ingredients[0].ingredient.bold() + recipesjson[i].ingredients[0].quantity + recipesjson[i].ingredients[0].unit +
-    '<br>' + recipesjson[i].ingredients[1].ingredient.bold() + recipesjson[i].ingredients[1].quantity + " " + recipesjson[i].ingredients[1].unit +
-    '<br>' + recipesjson[i].ingredients[2].ingredient.bold() + recipesjson[i].ingredients[2].quantity + " " + recipesjson[i].ingredients[2].unit +
-    '<br>' + recipesjson[i].ingredients[3].ingredient.bold() + recipesjson[i].ingredients[3].quantity + " " + recipesjson[i].ingredients[3].unit +
-    '<br>' + recipesjson[i].ingredients[4].ingredient.bold() + recipesjson[i].ingredients[4].quantity + " " + recipesjson[i].ingredients[4].unit +
-    '<br>' + recipesjson[i].ingredients[5].ingredient.bold() + recipesjson[i].ingredients[5].quantity + " " + recipesjson[i].ingredients[5].unit ;
+    ingredients[i].innerHTML= recipesjson[i].ingredients[0].ingredient.bold() + ': '.bold()+ recipesjson[i].ingredients[0].quantity + recipesjson[i].ingredients[0].unit +
+    '<br>' + recipesjson[i].ingredients[1].ingredient.bold() + ': '.bold()+ recipesjson[i].ingredients[1].quantity + " " + recipesjson[i].ingredients[1].unit +
+    '<br>' + recipesjson[i].ingredients[2].ingredient.bold() + ': '.bold()+ recipesjson[i].ingredients[2].quantity + " " + recipesjson[i].ingredients[2].unit
+    if(recipesjson[i].ingredients[3].ingredient !== ' ') {
+        ingredients[i].innerHTML += '<br>' + recipesjson[i].ingredients[3].ingredient.bold() + ': '.bold()+ recipesjson[i].ingredients[3].quantity + " " + recipesjson[i].ingredients[3].unit
+    }
+    if(recipesjson[i].ingredients[4].ingredient !== ' ') {
+        ingredients[i].innerHTML += '<br>' + recipesjson[i].ingredients[4].ingredient.bold() + ': '.bold()+ recipesjson[i].ingredients[3].quantity + " " + recipesjson[i].ingredients[3].unit
+    }
+    if(recipesjson[i].ingredients[5].ingredient !== ' ') {
+        ingredients[i].innerHTML += '<br>' + recipesjson[i].ingredients[5].ingredient.bold() + ': '.bold()+ recipesjson[i].ingredients[3].quantity + " " + recipesjson[i].ingredients[3].unit
+    }
+     
   }
