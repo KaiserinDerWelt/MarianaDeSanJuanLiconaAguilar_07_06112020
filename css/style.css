@@ -199,12 +199,14 @@ button.red:hover, button.red:focus {
 
 
 .dropbtn {
-    color: white;
+    color:#FFFFFF;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    margin-left: 21px !important;
+    margin-right: 21px;
   }
   
   
@@ -227,6 +229,7 @@ button.red:hover, button.red:focus {
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-left: -22px;
   
 }
 
@@ -235,7 +238,7 @@ button.red:hover, button.red:focus {
   position: absolute;
   min-width: 230px;
   overflow: auto;
-  border: 1px solid #ddd;
+  border: 1px solid #FFFFFF;
   z-index: 1;
   border-radius: 5px;
 }
@@ -268,7 +271,7 @@ button.red:hover, button.red:focus {
   }
 
 .dropdown-content a {
-  color: white;
+  color: #FFFFFF;
   padding: 8px 16px;
   text-decoration: none;
   display: block;
