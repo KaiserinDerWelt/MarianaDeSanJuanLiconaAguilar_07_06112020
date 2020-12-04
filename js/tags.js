@@ -2,19 +2,6 @@
     
 }) ()
 
-//Removed dynamic tab tap tabs
-document.querySelector('#searchFilter').addEventListener('keydown', function(e){
-    if(e.keyCode != 13){
-        return;
-    }
-
-    e.preventDefault()
-
-    var categoryName = this.value
-    this.value = ''
-    addNewCategory(categoryName)
-    updateCategoriesString()
-})
 
 function addNewCategory(nameCat){
     document.querySelector('#categoriesContainer').insertAdjacentHTML('beforeend',
