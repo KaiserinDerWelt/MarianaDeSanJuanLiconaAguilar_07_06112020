@@ -1,6 +1,11 @@
 
-.container {
+.items-container {
     background-color: #FFFFFF;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
  .nav{
   display: flex;
@@ -53,25 +58,34 @@ background-color: #E7E7E7;
     font-size: 20px;
 }
 
+#categoriesContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
  .categoryRecipes{
-     display: inline-block;
-     background-color: #0275d8;
+     display: flex;
+     width: fit-content;
+     background-color: rgb(255, 87, 25);
      color: #FFFFFF;
      padding: 10px 15px;
-     font-size: 10px;
      border-radius: 8px;
      margin-right: 5px;
      margin-top: 5px;  
  }
  
+.nameCat {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.btnRemove {
+    cursor: pointer;
+}
+
 .c{
     padding-left: 0px;
 }
-
-.d{
-    background-color: #FFFFFF;
-}
-
 
 .cardStyle{
     border-bottom-right-radius:10px ;
@@ -87,7 +101,8 @@ background-color: #E7E7E7;
 .cardRecipe{
     width: 359px;
     border-radius: 10px;
-    margin-left: 16px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 16px;
 }
 .card-img-top{
@@ -142,4 +157,171 @@ h1{
     font-weight: 400;
     font-style: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Dropdown */
+.blue {
+    background-color: #0275d8;
+}
+
+.blue .filter-input {
+    background-color: #0266be;
+}
+
+button.blue:hover, button.blue:focus {
+    background-color: #0260b3;
+  }
+
+.green {
+    background-color: #54ce9f;
+}
+
+.green .filter-input {
+    background-color: #4dc295;
+}
+
+button.green:hover, button.green:focus {
+    background-color: #4fbe94;
+}
+
+.red {
+    background-color: #F26259;
+}
+
+.red .filter-input {
+    background-color: #d3584f;
+}
+
+button.red:hover, button.red:focus {
+    background-color: #d3584f;
+}
+
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+  .filter-input {
+    box-sizing: border-box;
+    color: white;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+
+  .filter-input::placeholder {
+      color: rgba(255, 255, 255, 0.7);
+  }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-body {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+/* width */
+.dropdown-body::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  .dropdown-body::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  .dropdown-body::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.4); 
+  }
+  
+  /* Handle on hover */
+  .dropdown-body::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3); 
+  }
+
+.dropdown-content a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.show {display: block;}
+
+.hide {
+    display: none!important;
+}
+
+#myData {
+    margin-bottom: 50px;
+}
+
+@media(max-width: 1200px) {
+    .items-container {
+        grid-template-columns: 1fr 1fr;
+        width: 750px;
+    }
+
+    .dropdown-body {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+}
+
+@media(max-width: 800px) {
+    .items-container {
+        grid-template-columns: 1fr;
+        width: 320px;
+    }
+
+    .cardRecipe {
+        width: 300px;
+    }
+
+    #myData {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown {
+        margin-bottom: 20px;
+    }
+
+    .dropdown-body {
+        display: grid;
+        grid-template-columns: 200px;
+        max-height: 400px;
+        overflow-y: scroll;
+    }
 }
