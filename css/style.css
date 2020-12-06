@@ -1,6 +1,10 @@
-
-.container {
+.items-container {
     background-color: #FFFFFF;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
  .nav{
   display: flex;
@@ -53,12 +57,33 @@ background-color: #E7E7E7;
     font-size: 20px;
 }
 
-.c{
-    background-color: #FFFFFF;
+#categoriesContainer {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.d{
-    background-color: #FFFFFF;
+ .categoryRecipes{
+     display: flex;
+     width: fit-content;
+     background-color: #0275d8 !important;
+     color: #FFFFFF;
+     padding: 10px 15px;
+     border-radius: 8px;
+     margin-right: 5px;
+     margin-top: 5px;  
+ }
+ 
+.nameCat {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.btnRemove {
+    cursor: pointer;
+}
+
+.c{
+    padding-left: 0px;
 }
 
 .cardStyle{
@@ -75,7 +100,8 @@ background-color: #E7E7E7;
 .cardRecipe{
     width: 359px;
     border-radius: 10px;
-    margin-left: 16px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 16px;
 }
 .card-img-top{
@@ -92,4 +118,212 @@ h1{
     display: flex ;
     align-items: center ;
     justify-content: center ;
+}
+
+.recipeName{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.time{
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.instructions{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    display: -webkit-box;
+    max-width: 210px;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ingredientFlow{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Dropdown */
+.blue {
+    background-color: #0275d8;
+}
+
+.blue .filter-input {
+    background-color: #0266be;
+}
+
+button.blue:hover, button.blue:focus {
+    background-color: #0260b3;
+  }
+
+.green {
+    background-color: #54ce9f;
+}
+
+.green .filter-input {
+    background-color: #4dc295;
+}
+
+button.green:hover, button.green:focus {
+    background-color: #4fbe94;
+}
+
+.red {
+    background-color: #F26259;
+}
+
+.red .filter-input {
+    background-color: #d3584f;
+}
+
+button.red:hover, button.red:focus {
+    background-color: #d3584f;
+}
+
+
+.dropbtn {
+    color:#FFFFFF;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 21px !important;
+    margin-right: 21px;
+  }
+  
+  
+  .filter-input {
+    box-sizing: border-box;
+    color: white;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+
+  .filter-input::placeholder {
+      color: rgba(255, 255, 255, 0.7);
+  }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: -22px;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #FFFFFF;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-body {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+/* width */
+.dropdown-body::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  .dropdown-body::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  .dropdown-body::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.4); 
+  }
+  
+  /* Handle on hover */
+  .dropdown-body::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3); 
+  }
+
+.dropdown-content a {
+  color: #FFFFFF;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.show {display: block;}
+
+.hide {
+    display: none!important;
+}
+
+#myData {
+    margin-bottom: 50px;
+}
+
+@media(max-width: 1200px) {
+    .items-container {
+        grid-template-columns: 1fr 1fr;
+        width: 750px;
+    }
+
+    .dropdown-body {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+}
+
+@media(max-width: 800px) {
+    .items-container {
+        grid-template-columns: 1fr;
+        width: 320px;
+    }
+
+    .cardRecipe {
+        width: 300px;
+    }
+
+    #myData {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown {
+        margin-bottom: 20px;
+    }
+
+    .dropdown-body {
+        display: grid;
+        grid-template-columns: 200px;
+        max-height: 400px;
+        overflow-y: scroll;
+    }
 }
