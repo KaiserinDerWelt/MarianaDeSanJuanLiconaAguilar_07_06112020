@@ -14,18 +14,6 @@ function loadJSON(){ //Hosted JSON in Github
       console.log(err);
   });
 }
-/*
-function appendData(data){
-  var nameContainer = document.getElementById("name");
-  var servingsContainer = document.getElementById("");
-  var timeContainer = document.getElementById("");
-  var descriptionContainer = document.getElementById("");
-  
-            for (var i = 0; i < data.length; i++) {
-                var div = document.createElement("div");
-                div.innerHTML = data[i].name;
-                nameContainer.appendChild(div);
-}
-}*/
+
 
 
