@@ -14,3 +14,4 @@ function functionSearch() {
     }
 }
 
+//This is my second algorithm 
