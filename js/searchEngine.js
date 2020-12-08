@@ -1,4 +1,8 @@
-/*function functionSearch() {
+
+let tags = []
+
+
+function functionSearch() {
     var inputSearch, filterSearch, cardsSearch, cardContainer, mySearch, i;//OK
     inputSearch = document.getElementById("searchFilter"); //Input search //OK
     filterSearch = inputSearch.value.toUpperCase();
@@ -11,35 +15,7 @@
         } else {
             cardsSearch[i].style.display = "none";
         }
-    }
-}
-*/ // Try this algorithm in the other branch
-let tags = []
-
-
-function functionSearch() {
-    var inputSearch, filterSearch, cardsSearch, cardContainer, mySearch, i;//OK
-    inputSearch = document.getElementById("searchFilter"); //Input search //OK
-    filterSearch = inputSearch.value.toUpperCase();
-    cardContainer = document.getElementById("items");//Container d//OK
-    cardsSearch = cardContainer.getElementsByClassName("card");//Targeting Card //
-    for(let i = 0; i < cardsSearch.length; i++) {
-        cardsSearch[i].classList.remove('hide')
-    }
-    if(inputSearch.value.length > 2) { //Defined lenght
-        for (i = 0; i < cardsSearch.length; i++) {
-            mySearch = cardsSearch[i].querySelector(".card-body"); //Modify lenght
-            if (mySearch.innerText.toUpperCase().indexOf(filterSearch) > -1) {
-                cardsSearch[i].classList.remove('hide')
-            } else {
-                cardsSearch[i].classList.add('hide')
-            }
-        }
-    } else if (inputSearch.value.length === 0) {
-        for (i = 0; i < cardsSearch.length; i++) {
-            cardsSearch[i].classList.remove('hide')
-        }
-    }
+    } //This is the second algorithm
 
 
     //filter ingredients
