@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ecd8d824a5.js" crossorigin="anonymous"></script>
+    <title>Le Petits Plats</title>
+  </head>
+  <body>
+   <div class="container nav">
+    <img src="img/logo.png"  alt="Le-Petits-Plans-Restaurant" class="logo">
+   </div>
+   <!--Container for search bar OK-->
+    <div class="container b">
+      <div class="input-group mb-3 searchButton">
+        <input type="text" class="form-control inputSearch" minlength="3" onkeyup="functionSearch()" id="searchFilter" placeholder="Search an ingredient, device, utensil or a recipe" aria-label="Recipient's username" aria-describedby="button-addon2" > 
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button" id="magButton"> <i class="fas fa-search text-grey" aria-hidden="true"></i></button>
+        </div>
+      <input type="hidden" name="categoriesString"> <!--This input is hidden to make tags-->
+      </div>
+      <ul class="c" id="categoriesContainer"><!--Making tags without framework-->
+      </ul>
+    </div>
+    <!--Add container for search-cascade filters-->
+    <div id="myData" class="container">
+      <div class="dropdown">
+        <button onclick="ingredientsBtn()" class="dropbtn blue">Ingredients <i class="fas fa-angle-down"></i></button>
+        <div id="ingredientsDropdown" class="dropdown-content blue">
+            <input class="filter-input" type="text" placeholder="Search with ingredients..." id="ingredientsInput" onkeyup="filterFunctionIngredients()" autocomplete="off">
+            <div class="dropdown-body"></div>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button onclick="deviceBtn()" class="dropbtn green">Device <i class="fas fa-angle-down"></i></button>
+        <div id="deviceDropdown" class="dropdown-content green">
+            <input class="filter-input" type="text" placeholder="Search with device..." id="deviceInput" onkeyup="filterFunctionDevice()" autocomplete="off">
+            <div class="dropdown-body"></div>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button onclick="ustensilsBtn()" class="dropbtn red">Ustensils <i class="fas fa-angle-down"></i></button>
+        <div id="ustensilsDropdown" class="dropdown-content red">
+            <input class="filter-input" type="text" placeholder="Search with ustensils..." id="ustensilsInput" onkeyup="filterFunctionUstensils()" autocomplete="off">
+            <div class="dropdown-body"></div>
+        </div>
+      </div>
+
+      
+    </div>
+       <div class="items-container d" id="items"><!--Container for card items-->
+
+                  <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+                
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+                
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+                
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+                
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+                
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+                
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+                
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+                
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+                
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+                
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="card cardRecipe">
+                      <img src="img/GraySquare.png" class="card-img-top" alt="Gray-Space-Holder">
+                      <div class="card-body cardStyle">
+                          <div class="row">
+                              <div class="col-8"><h3 class="recipeName"></h3></div>
+                             <div class="col-4"><p class="time"></p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-6 ingredientFlow">
+                               </div>
+                              <div class="col-6"><p class="instructions"></p></div>
+                            </div>
+                      </div>
+                    </div> 
+      </div>
+    <!--jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="js/recipes.js"></script>
+    <script src="js/searchEngine.js"></script>
+    <script src="js/tags.js"></script>
+    <script src="js/dropdown.js"></script>
+  </body>
+</html>
